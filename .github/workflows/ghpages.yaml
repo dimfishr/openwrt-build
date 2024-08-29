@@ -12,7 +12,7 @@ jobs:
           ref: builds    #checkout different branch
 
       - name: Generate Directory Listings
-        uses: jayanta525/github-pages-directory-listing@v4.0.0
+        uses: dimfishr/github-pages-directory-listing@main
         with:
           FOLDER: data      #directory to generate index
 
