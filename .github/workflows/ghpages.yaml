@@ -9,7 +9,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          ref: builds    #checkout different branch
+          ref: main    #checkout different branch
 
       - name: Generate Directory Listings
         uses: dimfishr/github-pages-directory-listing@main
