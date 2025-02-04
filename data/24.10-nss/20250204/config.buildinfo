@@ -1,0 +1,396 @@
+CONFIG_TARGET_qualcommax=y
+CONFIG_TARGET_qualcommax_ipq807x=y
+CONFIG_TARGET_MULTI_PROFILE=y
+CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_redmi_ax6=y
+CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq807x_DEVICE_redmi_ax6=""
+CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_xiaomi_ax3600=y
+CONFIG_TARGET_DEVICE_PACKAGES_qualcommax_ipq807x_DEVICE_xiaomi_ax3600=""
+CONFIG_ALL_KMODS=y
+CONFIG_DEVEL=y
+CONFIG_TOOLCHAINOPTS=y
+CONFIG_TARGET_PER_DEVICE_ROOTFS=y
+CONFIG_ATH10K_THERMAL=y
+# CONFIG_ATH11K_DEBUGFS_HTT_STATS is not set
+# CONFIG_ATH11K_DEBUGFS_STA is not set
+# CONFIG_ATH11K_MEM_PROFILE_1G is not set
+CONFIG_ATH11K_MEM_PROFILE_512M=y
+# CONFIG_ATH9K_HWRNG is not set
+# CONFIG_BINUTILS_USE_VERSION_2_42 is not set
+CONFIG_BINUTILS_USE_VERSION_2_43=y
+CONFIG_BINUTILS_VERSION="2.43.1"
+CONFIG_BINUTILS_VERSION_2_43=y
+CONFIG_BUILD_PATENTED=y
+CONFIG_BUSYBOX_DEFAULT_PIE=y
+CONFIG_CCACHE=y
+CONFIG_EXPERIMENTAL=y
+CONFIG_GCC_DEFAULT_PIE=y
+CONFIG_GCC_USE_GRAPHITE=y
+# CONFIG_GCC_USE_VERSION_13 is not set
+CONFIG_GCC_USE_VERSION_14=y
+CONFIG_GCC_VERSION="14.2.0"
+CONFIG_GCC_VERSION_14=y
+CONFIG_GETDNS_ENABLE_STUB_ONLY=y
+# CONFIG_IPQ_MEM_PROFILE_1024 is not set
+CONFIG_IPQ_MEM_PROFILE_512=y
+# CONFIG_KERNEL_CC_STACKPROTECTOR_REGULAR is not set
+CONFIG_KERNEL_CC_STACKPROTECTOR_STRONG=y
+CONFIG_KERNEL_IPQ_MEM_PROFILE=512
+# CONFIG_KERNEL_PAGE_POOL is not set
+CONFIG_KERNEL_STACKPROTECTOR_STRONG=y
+# CONFIG_KERNEL_WERROR is not set
+# CONFIG_LUA_ECO_MBEDTLS is not set
+CONFIG_LUA_ECO_WOLFSSL=y
+CONFIG_NSS_DRV_C2C_ENABLE=y
+CONFIG_NSS_DRV_CAPWAP_ENABLE=y
+CONFIG_NSS_DRV_CLMAP_ENABLE=y
+CONFIG_NSS_DRV_DTLS_ENABLE=y
+CONFIG_NSS_DRV_GRE_REDIR_ENABLE=y
+CONFIG_NSS_DRV_GRE_TUNNEL_ENABLE=y
+CONFIG_NSS_DRV_IPSEC_ENABLE=y
+CONFIG_NSS_DRV_IPV4_REASM_ENABLE=y
+CONFIG_NSS_DRV_IPV6_REASM_ENABLE=y
+CONFIG_NSS_DRV_LSO_RX_ENABLE=y
+CONFIG_NSS_DRV_OAM_ENABLE=y
+CONFIG_NSS_DRV_PORTID_ENABLE=y
+CONFIG_NSS_DRV_QRFS_ENABLE=y
+CONFIG_NSS_DRV_QVPN_ENABLE=y
+CONFIG_NSS_DRV_SJACK_ENABLE=y
+CONFIG_NSS_DRV_TLS_ENABLE=y
+CONFIG_NSS_DRV_TRUSTSEC_ENABLE=y
+CONFIG_NSS_DRV_TRUSTSEC_RX_ENABLE=y
+CONFIG_NSS_DRV_TSTAMP_ENABLE=y
+CONFIG_NSS_DRV_UDP_ST_ENABLE=y
+CONFIG_NSS_DRV_WIFI_LEGACY_ENABLE=y
+# CONFIG_NSS_DRV_WIFI_MESH_ENABLE is not set
+# CONFIG_NSS_FIRMWARE_VERSION_11_4 is not set
+CONFIG_NSS_FIRMWARE_VERSION_12_2=y
+# CONFIG_NSS_MEM_PROFILE_HIGH is not set
+CONFIG_NSS_MEM_PROFILE_MEDIUM=y
+CONFIG_OPENSSL_ENGINE=y
+CONFIG_OPENSSL_WITH_ASM=y
+CONFIG_OPENSSL_WITH_CHACHA_POLY1305=y
+CONFIG_OPENSSL_WITH_CMS=y
+CONFIG_OPENSSL_WITH_DEPRECATED=y
+CONFIG_OPENSSL_WITH_ERROR_MESSAGES=y
+CONFIG_OPENSSL_WITH_IDEA=y
+CONFIG_OPENSSL_WITH_MDC2=y
+CONFIG_OPENSSL_WITH_PSK=y
+CONFIG_OPENSSL_WITH_SEED=y
+CONFIG_OPENSSL_WITH_SRP=y
+CONFIG_OPENSSL_WITH_TLS13=y
+CONFIG_OPENSSL_WITH_WHIRLPOOL=y
+CONFIG_PACKAGE_6rd=y
+CONFIG_PACKAGE_amneziawg-tools=y
+# CONFIG_PACKAGE_ar3k-firmware is not set
+# CONFIG_PACKAGE_ath9k-htc-firmware is not set
+# CONFIG_PACKAGE_bnx2-firmware is not set
+# CONFIG_PACKAGE_bnx2x-firmware is not set
+# CONFIG_PACKAGE_brcmfmac-firmware-usb is not set
+# CONFIG_PACKAGE_carl9170-firmware is not set
+CONFIG_PACKAGE_cgi-io=y
+CONFIG_PACKAGE_dnsmasq=m
+CONFIG_PACKAGE_dnsmasq-full=y
+CONFIG_PACKAGE_dnsmasq_full_auth=y
+CONFIG_PACKAGE_dnsmasq_full_conntrack=y
+CONFIG_PACKAGE_dnsmasq_full_dhcp=y
+CONFIG_PACKAGE_dnsmasq_full_dhcpv6=y
+CONFIG_PACKAGE_dnsmasq_full_dnssec=y
+CONFIG_PACKAGE_dnsmasq_full_nftset=y
+CONFIG_PACKAGE_dnsmasq_full_noid=y
+CONFIG_PACKAGE_dnsmasq_full_tftp=y
+# CONFIG_PACKAGE_e100-firmware is not set
+CONFIG_PACKAGE_ethtool=y
+CONFIG_PACKAGE_getdns=y
+CONFIG_PACKAGE_htop=y
+CONFIG_PACKAGE_ip6tables-nft=m
+CONFIG_PACKAGE_iptables-mod-conntrack-extra=m
+CONFIG_PACKAGE_iptables-mod-ipopt=m
+CONFIG_PACKAGE_iptables-nft=m
+# CONFIG_PACKAGE_kmod-3c59x is not set
+# CONFIG_PACKAGE_kmod-8139cp is not set
+# CONFIG_PACKAGE_kmod-8139too is not set
+CONFIG_PACKAGE_kmod-amneziawg=y
+# CONFIG_PACKAGE_kmod-ar5523 is not set
+# CONFIG_PACKAGE_kmod-ath10k-ct is not set
+# CONFIG_PACKAGE_kmod-ath10k-ct-smallbuffers is not set
+# CONFIG_PACKAGE_kmod-ath12k is not set
+# CONFIG_PACKAGE_kmod-ath3k is not set
+# CONFIG_PACKAGE_kmod-ath5k is not set
+# CONFIG_PACKAGE_kmod-ath6kl-sdio is not set
+# CONFIG_PACKAGE_kmod-ath6kl-usb is not set
+# CONFIG_PACKAGE_kmod-ath9k-htc is not set
+# CONFIG_PACKAGE_kmod-atl1 is not set
+# CONFIG_PACKAGE_kmod-atl1c is not set
+# CONFIG_PACKAGE_kmod-atl1e is not set
+# CONFIG_PACKAGE_kmod-atl2 is not set
+# CONFIG_PACKAGE_kmod-atlantic is not set
+# CONFIG_PACKAGE_kmod-b43 is not set
+# CONFIG_PACKAGE_kmod-b44 is not set
+# CONFIG_PACKAGE_kmod-be2net is not set
+# CONFIG_PACKAGE_kmod-bnx2 is not set
+# CONFIG_PACKAGE_kmod-bnx2x is not set
+CONFIG_PACKAGE_kmod-bonding=y
+# CONFIG_PACKAGE_kmod-brcmfmac is not set
+# CONFIG_PACKAGE_kmod-brcmsmac is not set
+# CONFIG_PACKAGE_kmod-brcmutil is not set
+# CONFIG_PACKAGE_kmod-carl9170 is not set
+CONFIG_PACKAGE_kmod-crypto-kpp=y
+CONFIG_PACKAGE_kmod-crypto-lib-chacha20=y
+CONFIG_PACKAGE_kmod-crypto-lib-chacha20poly1305=y
+CONFIG_PACKAGE_kmod-crypto-lib-curve25519=y
+CONFIG_PACKAGE_kmod-crypto-lib-poly1305=y
+# CONFIG_PACKAGE_kmod-dahdi is not set
+# CONFIG_PACKAGE_kmod-dm9000 is not set
+# CONFIG_PACKAGE_kmod-e100 is not set
+# CONFIG_PACKAGE_kmod-e1000 is not set
+# CONFIG_PACKAGE_kmod-e1000e is not set
+# CONFIG_PACKAGE_kmod-et131x is not set
+CONFIG_PACKAGE_kmod-gre=y
+CONFIG_PACKAGE_kmod-gre6=y
+# CONFIG_PACKAGE_kmod-i40e is not set
+CONFIG_PACKAGE_kmod-ifb=y
+CONFIG_PACKAGE_kmod-ip6-tunnel=y
+CONFIG_PACKAGE_kmod-iptunnel=y
+CONFIG_PACKAGE_kmod-iptunnel4=y
+CONFIG_PACKAGE_kmod-iptunnel6=y
+# CONFIG_PACKAGE_kmod-iwlwifi is not set
+CONFIG_PACKAGE_kmod-l2tp=y
+# CONFIG_PACKAGE_kmod-lan743x is not set
+# CONFIG_PACKAGE_kmod-mlx4-core is not set
+# CONFIG_PACKAGE_kmod-mlx5-core is not set
+# CONFIG_PACKAGE_kmod-mlxfw is not set
+# CONFIG_PACKAGE_kmod-mt76 is not set
+# CONFIG_PACKAGE_kmod-mt7601u is not set
+# CONFIG_PACKAGE_kmod-mt7603 is not set
+# CONFIG_PACKAGE_kmod-mt7615-firmware is not set
+# CONFIG_PACKAGE_kmod-mt7615e is not set
+# CONFIG_PACKAGE_kmod-mt7622-firmware is not set
+# CONFIG_PACKAGE_kmod-mt7663-firmware-ap is not set
+# CONFIG_PACKAGE_kmod-mt7663-firmware-sta is not set
+# CONFIG_PACKAGE_kmod-mt7663s is not set
+# CONFIG_PACKAGE_kmod-mt7663u is not set
+# CONFIG_PACKAGE_kmod-mt76x0e is not set
+# CONFIG_PACKAGE_kmod-mt76x0u is not set
+# CONFIG_PACKAGE_kmod-mt76x2 is not set
+# CONFIG_PACKAGE_kmod-mt76x2u is not set
+# CONFIG_PACKAGE_kmod-mt7915-firmware is not set
+# CONFIG_PACKAGE_kmod-mt7915e is not set
+# CONFIG_PACKAGE_kmod-mt7916-firmware is not set
+# CONFIG_PACKAGE_kmod-mt7921-firmware is not set
+# CONFIG_PACKAGE_kmod-mt7921e is not set
+# CONFIG_PACKAGE_kmod-mt7921s is not set
+# CONFIG_PACKAGE_kmod-mt7921u is not set
+# CONFIG_PACKAGE_kmod-mt7922-firmware is not set
+# CONFIG_PACKAGE_kmod-mt7925-firmware is not set
+# CONFIG_PACKAGE_kmod-mt7925e is not set
+# CONFIG_PACKAGE_kmod-mt7925u is not set
+# CONFIG_PACKAGE_kmod-mt7992-23-firmware is not set
+# CONFIG_PACKAGE_kmod-mt7992-firmware is not set
+# CONFIG_PACKAGE_kmod-mt7996-233-firmware is not set
+# CONFIG_PACKAGE_kmod-mt7996-firmware is not set
+# CONFIG_PACKAGE_kmod-mt7996e is not set
+# CONFIG_PACKAGE_kmod-mwifiex-pcie is not set
+# CONFIG_PACKAGE_kmod-mwifiex-sdio is not set
+# CONFIG_PACKAGE_kmod-mwl8k is not set
+CONFIG_PACKAGE_kmod-nat46=y
+CONFIG_PACKAGE_kmod-nf-conntrack-netlink=y
+# CONFIG_PACKAGE_kmod-ovpn-dco-v2 is not set
+# CONFIG_PACKAGE_kmod-pcie_mhi is not set
+# CONFIG_PACKAGE_kmod-pcnet32 is not set
+CONFIG_PACKAGE_kmod-pppol2tp=y
+CONFIG_PACKAGE_kmod-pptp=y
+CONFIG_PACKAGE_kmod-qca-mcs=y
+CONFIG_PACKAGE_kmod-qca-nss-drv-bridge-mgr=y
+CONFIG_PACKAGE_kmod-qca-nss-drv-eogremgr=y
+CONFIG_PACKAGE_kmod-qca-nss-drv-gre=y
+CONFIG_PACKAGE_kmod-qca-nss-drv-igs=y
+CONFIG_PACKAGE_kmod-qca-nss-drv-l2tpv2=y
+CONFIG_PACKAGE_kmod-qca-nss-drv-lag-mgr=y
+CONFIG_PACKAGE_kmod-qca-nss-drv-map-t=y
+CONFIG_PACKAGE_kmod-qca-nss-drv-match=y
+CONFIG_PACKAGE_kmod-qca-nss-drv-mirror=y
+CONFIG_PACKAGE_kmod-qca-nss-drv-pppoe=y
+CONFIG_PACKAGE_kmod-qca-nss-drv-pptp=y
+CONFIG_PACKAGE_kmod-qca-nss-drv-qdisc=y
+CONFIG_PACKAGE_kmod-qca-nss-drv-tun6rd=y
+CONFIG_PACKAGE_kmod-qca-nss-drv-tunipip6=y
+CONFIG_PACKAGE_kmod-qca-nss-drv-vlan-mgr=y
+CONFIG_PACKAGE_kmod-qca-nss-drv-vxlanmgr=y
+# CONFIG_PACKAGE_kmod-qca-nss-drv-wifi-meshmgr is not set
+CONFIG_PACKAGE_kmod-qca-nss-macsec=y
+# CONFIG_PACKAGE_kmod-qmi_wwan_q is not set
+# CONFIG_PACKAGE_kmod-r6040 is not set
+# CONFIG_PACKAGE_kmod-r8169 is not set
+# CONFIG_PACKAGE_kmod-rsi91x is not set
+# CONFIG_PACKAGE_kmod-rsi91x-sdio is not set
+# CONFIG_PACKAGE_kmod-rsi91x-usb is not set
+# CONFIG_PACKAGE_kmod-rt2800-pci is not set
+# CONFIG_PACKAGE_kmod-rt2800-usb is not set
+# CONFIG_PACKAGE_kmod-rt2x00-lib is not set
+# CONFIG_PACKAGE_kmod-rt61-pci is not set
+# CONFIG_PACKAGE_kmod-rt73-usb is not set
+# CONFIG_PACKAGE_kmod-rtl8192ce is not set
+# CONFIG_PACKAGE_kmod-rtl8192cu is not set
+# CONFIG_PACKAGE_kmod-rtl8192de is not set
+# CONFIG_PACKAGE_kmod-rtl8192du is not set
+# CONFIG_PACKAGE_kmod-rtl8192se is not set
+# CONFIG_PACKAGE_kmod-rtl8723be is not set
+# CONFIG_PACKAGE_kmod-rtl8723bs is not set
+# CONFIG_PACKAGE_kmod-rtl8812au-ct is not set
+# CONFIG_PACKAGE_kmod-rtl8821ae is not set
+# CONFIG_PACKAGE_kmod-rtl8xxxu is not set
+# CONFIG_PACKAGE_kmod-rtw88-8723de is not set
+# CONFIG_PACKAGE_kmod-rtw88-8723ds is not set
+# CONFIG_PACKAGE_kmod-rtw88-8723du is not set
+# CONFIG_PACKAGE_kmod-rtw88-8821ce is not set
+# CONFIG_PACKAGE_kmod-rtw88-8821cu is not set
+# CONFIG_PACKAGE_kmod-rtw88-8822be is not set
+# CONFIG_PACKAGE_kmod-rtw88-8822bu is not set
+# CONFIG_PACKAGE_kmod-rtw88-8822ce is not set
+# CONFIG_PACKAGE_kmod-rtw88-8822cu is not set
+# CONFIG_PACKAGE_kmod-rtw89-8851be is not set
+# CONFIG_PACKAGE_kmod-rtw89-8852ae is not set
+# CONFIG_PACKAGE_kmod-rtw89-8852be is not set
+# CONFIG_PACKAGE_kmod-rtw89-8852ce is not set
+# CONFIG_PACKAGE_kmod-rtw89-8922ae is not set
+CONFIG_PACKAGE_kmod-sched-core=y
+# CONFIG_PACKAGE_kmod-sis190 is not set
+# CONFIG_PACKAGE_kmod-sis900 is not set
+CONFIG_PACKAGE_kmod-sit=y
+# CONFIG_PACKAGE_kmod-skge is not set
+# CONFIG_PACKAGE_kmod-sky2 is not set
+# CONFIG_PACKAGE_kmod-solos-pci is not set
+# CONFIG_PACKAGE_kmod-spi-ks8995 is not set
+# CONFIG_PACKAGE_kmod-switch-ar8xxx is not set
+# CONFIG_PACKAGE_kmod-switch-ip17xx is not set
+# CONFIG_PACKAGE_kmod-switch-rtl8306 is not set
+# CONFIG_PACKAGE_kmod-switch-rtl8366-smi is not set
+# CONFIG_PACKAGE_kmod-switch-rtl8366rb is not set
+# CONFIG_PACKAGE_kmod-switch-rtl8366s is not set
+# CONFIG_PACKAGE_kmod-switch-rtl8367 is not set
+# CONFIG_PACKAGE_kmod-switch-rtl8367b is not set
+CONFIG_PACKAGE_kmod-tls=y
+CONFIG_PACKAGE_kmod-udptunnel4=y
+CONFIG_PACKAGE_kmod-udptunnel6=y
+# CONFIG_PACKAGE_kmod-usb-serial-dmx_usb_module is not set
+# CONFIG_PACKAGE_kmod-usb-serial-xr_usb_serial_common is not set
+# CONFIG_PACKAGE_kmod-v4l2loopback is not set
+# CONFIG_PACKAGE_kmod-video-core is not set
+CONFIG_PACKAGE_kmod-vxlan=y
+# CONFIG_PACKAGE_kmod-wil6210 is not set
+# CONFIG_PACKAGE_kmod-wl12xx is not set
+# CONFIG_PACKAGE_kmod-wl18xx is not set
+# CONFIG_PACKAGE_kmod-wlcore is not set
+CONFIG_PACKAGE_libatomic=m
+CONFIG_PACKAGE_libbpf=y
+CONFIG_PACKAGE_libelf=y
+CONFIG_PACKAGE_libgmp=y
+CONFIG_PACKAGE_libip4tc=m
+CONFIG_PACKAGE_libip6tc=m
+CONFIG_PACKAGE_libiptext=m
+CONFIG_PACKAGE_libiptext-nft=m
+CONFIG_PACKAGE_libiptext6=m
+# CONFIG_PACKAGE_libkmod is not set
+CONFIG_PACKAGE_liblucihttp=y
+CONFIG_PACKAGE_liblucihttp-ucode=y
+CONFIG_PACKAGE_libmbedtls=m
+CONFIG_PACKAGE_libncurses=y
+CONFIG_PACKAGE_libnetfilter-conntrack=y
+CONFIG_PACKAGE_libnettle=y
+CONFIG_PACKAGE_libnfnetlink=y
+CONFIG_PACKAGE_libopenssl=y
+# CONFIG_PACKAGE_libpci is not set
+CONFIG_PACKAGE_libstdcpp=m
+CONFIG_PACKAGE_libustream-mbedtls=m
+CONFIG_PACKAGE_libustream-wolfssl=y
+CONFIG_PACKAGE_libwolfssl=m
+CONFIG_PACKAGE_libwolfsslcpu-crypto=y
+CONFIG_PACKAGE_libxtables=y
+CONFIG_PACKAGE_libyaml=y
+CONFIG_PACKAGE_libzstd=y
+CONFIG_PACKAGE_luci=y
+CONFIG_PACKAGE_luci-app-firewall=y
+CONFIG_PACKAGE_luci-app-package-manager=y
+CONFIG_PACKAGE_luci-base=y
+CONFIG_PACKAGE_luci-lib-uqr=y
+CONFIG_PACKAGE_luci-light=y
+CONFIG_PACKAGE_luci-mod-admin-full=y
+CONFIG_PACKAGE_luci-mod-network=y
+CONFIG_PACKAGE_luci-mod-status=y
+CONFIG_PACKAGE_luci-mod-system=y
+CONFIG_PACKAGE_luci-proto-amneziawg=y
+CONFIG_PACKAGE_luci-proto-ipv6=y
+CONFIG_PACKAGE_luci-proto-ppp=y
+CONFIG_PACKAGE_luci-theme-bootstrap=y
+# CONFIG_PACKAGE_mt7601u-firmware is not set
+# CONFIG_PACKAGE_mwifiex-pcie-firmware is not set
+# CONFIG_PACKAGE_mwl8k-firmware is not set
+CONFIG_PACKAGE_nss-eip-firmware=y
+# CONFIG_PACKAGE_pciids is not set
+# CONFIG_PACKAGE_pciutils is not set
+CONFIG_PACKAGE_qca-ssdk-shell=y
+# CONFIG_PACKAGE_quectel-cm is not set
+# CONFIG_PACKAGE_r8169-firmware is not set
+CONFIG_PACKAGE_resolveip=y
+CONFIG_PACKAGE_rpcd=y
+CONFIG_PACKAGE_rpcd-mod-file=y
+CONFIG_PACKAGE_rpcd-mod-iwinfo=y
+CONFIG_PACKAGE_rpcd-mod-luci=y
+CONFIG_PACKAGE_rpcd-mod-rrdns=y
+CONFIG_PACKAGE_rpcd-mod-ucode=y
+# CONFIG_PACKAGE_rs9113-firmware is not set
+# CONFIG_PACKAGE_rt2800-pci-firmware is not set
+# CONFIG_PACKAGE_rt2800-usb-firmware is not set
+# CONFIG_PACKAGE_rt61-pci-firmware is not set
+# CONFIG_PACKAGE_rt73-usb-firmware is not set
+# CONFIG_PACKAGE_rtl8192ce-firmware is not set
+# CONFIG_PACKAGE_rtl8192cu-firmware is not set
+# CONFIG_PACKAGE_rtl8192de-firmware is not set
+# CONFIG_PACKAGE_rtl8192du-firmware is not set
+# CONFIG_PACKAGE_rtl8192se-firmware is not set
+# CONFIG_PACKAGE_rtl8723be-firmware is not set
+# CONFIG_PACKAGE_rtl8723de-firmware is not set
+# CONFIG_PACKAGE_rtl8821ae-firmware is not set
+# CONFIG_PACKAGE_rtl8821ce-firmware is not set
+# CONFIG_PACKAGE_rtl8822be-firmware is not set
+# CONFIG_PACKAGE_rtl8822ce-firmware is not set
+# CONFIG_PACKAGE_rtl8851be-firmware is not set
+# CONFIG_PACKAGE_rtl8852ae-firmware is not set
+# CONFIG_PACKAGE_rtl8852be-firmware is not set
+# CONFIG_PACKAGE_rtl8852ce-firmware is not set
+# CONFIG_PACKAGE_rtl8922ae-firmware is not set
+CONFIG_PACKAGE_sqm-scripts=m
+CONFIG_PACKAGE_sqm-scripts-nss=m
+CONFIG_PACKAGE_stubby=y
+CONFIG_PACKAGE_tc-bpf=m
+CONFIG_PACKAGE_tc-full=y
+CONFIG_PACKAGE_tc-tiny=m
+CONFIG_PACKAGE_terminfo=y
+CONFIG_PACKAGE_ucode-mod-html=y
+CONFIG_PACKAGE_ucode-mod-math=y
+CONFIG_PACKAGE_uhttpd=y
+CONFIG_PACKAGE_uhttpd-mod-ubus=y
+# CONFIG_PACKAGE_wil6210-firmware is not set
+# CONFIG_PACKAGE_wl12xx-firmware is not set
+# CONFIG_PACKAGE_wl18xx-firmware is not set
+CONFIG_PACKAGE_wpad-basic-mbedtls=m
+CONFIG_PACKAGE_wpad-wolfssl=y
+CONFIG_PACKAGE_xtables-nft=m
+CONFIG_PACKAGE_zlib=y
+CONFIG_PKG_ASLR_PIE_ALL=y
+# CONFIG_PKG_ASLR_PIE_REGULAR is not set
+# CONFIG_PKG_CC_STACKPROTECTOR_REGULAR is not set
+CONFIG_PKG_CC_STACKPROTECTOR_STRONG=y
+# CONFIG_PKG_FORTIFY_SOURCE_1 is not set
+CONFIG_PKG_FORTIFY_SOURCE_2=y
+CONFIG_TARGET_OPTIMIZATION="-O3 -pipe -mcpu=cortex-a53+crc+crypto+rdma"
+CONFIG_TARGET_OPTIONS=y
+CONFIG_USE_GC_SECTIONS=y
+CONFIG_USE_LTO=y
+CONFIG_USE_MOLD=y
+CONFIG_WOLFSSL_HAS_NO_HW=y
+CONFIG_WPA_WOLFSSL=y
+CONFIG_ZLIB_OPTIMIZE_SPEED=y
+CONFIG_ZSTD_OPTIMIZE_O3=y
+# CONFIG_HTOP_LMSENSORS is not set
+CONFIG_NSS_DRV_RMNET_ENABLE=y
