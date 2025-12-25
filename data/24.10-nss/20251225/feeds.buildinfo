@@ -1,0 +1,7 @@
+src-git packages https://git.openwrt.org/feed/packages.git^953b6d47b4e9f0ad3c39547c6d3f9a828f10e206
+src-git luci https://git.openwrt.org/project/luci.git^d88390be4ec9722cb427fee03368fc8c8582627d
+src-git routing https://git.openwrt.org/feed/routing.git^178a40d321d6c11f18528f34777f4e24ce62b19a
+src-git telephony https://git.openwrt.org/feed/telephony.git^92892fa285360b8981f62bf4e0a097e6449e7e33
+src-git nss_packages https://github.com/qosmio/nss-packages.git^e16ba70163363720155df4a086e70441966b9f0f
+src-git sqm_scripts_nss https://github.com/qosmio/sqm-scripts-nss.git^4b4ed8639229be5e70cf94b73cdf7dbc09e66d5d
+src-git awgopenwrt https://github.com/dimfishr/amneziawg-openwrt.git^88bf1e0a79eafe8f344ff58f5f63248adba10f39
